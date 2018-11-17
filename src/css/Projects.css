@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "ChronoType";
+  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+}
+
+.projects {
+  margin: auto;
+  position: relative;
+  width: 345px;
+  height: 430px;
+  overflow: hidden;
+}
+
+.tavern {
+  background: url("images/tavern.png") no-repeat;
+  width: 345px;
+  height: 300px;
+}
+
+.bard-dialogue,
+.barkeep-dialogue,
+.bar-patron-dialogue,
+.nodding-patron-dialogue,
+.standing-patron-dialogue {
+  position: absolute;
+  top: 310px;
+  font-family: "ChronoType";
+  font-size: 1.5rem;
+  width: 335px;
+  margin: 0 10px;
+  left: -400px;
+  transition: 0.5s;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.bard-dialogue.true,
+.barkeep-dialogue.true,
+.bar-patron-dialogue.true,
+.nodding-patron-dialogue.true,
+.standing-patron-dialogue.true {
+  left: 0;
+}

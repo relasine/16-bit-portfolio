@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "ChronoType";
+  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+}
+
+.nav-menu {
+  position: absolute;
+  transition: 0.5s;
+  left: -300px;
+}
+
+.nav-menu.true {
+  left: 65px;
+}
+
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  padding-left: 1rem;
+}
+
+.nav-menu li {
+  font-family: "ChronoType";
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,66 @@
+.hamburger {
+  margin-left: 1rem;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border: solid #000 2px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  z-index: 2;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+  animation: "pulse" infinite 1.5s;
+}
+
+.hamburger-top,
+.hamburger-bottom {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  left: 8px;
+  background: #000;
+  transition: 0.5s;
+}
+
+.hamburger-top {
+  top: 15px;
+}
+
+.hamburger-middle {
+  top: 30px;
+}
+
+.hamburger-bottom {
+  top: 25px;
+}
+
+.hamburger.true .hamburger-top {
+  transform: rotate(405deg);
+  top: 20px;
+}
+
+.hamburger.true .hamburger-bottom {
+  transform: rotate(-405deg);
+  top: 20px;
+}
+
+.hamburger.true .hamburger-middle {
+  transform: rotate(405deg);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  90% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0;
+  }
+}

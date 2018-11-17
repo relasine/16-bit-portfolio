@@ -1,0 +1,17 @@
+.barkeep {
+  image-rendering: pixelated;
+  margin: auto;
+  z-index: 4;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+  background-size: 35px 70px;
+  top: 180px;
+  right: 10px;
+  background: url(./images/barkeep/left_stand.png) no-repeat;
+  background-size: 35px 70px;
+}
+
+.barkeep:hover {
+  cursor: pointer;
+}

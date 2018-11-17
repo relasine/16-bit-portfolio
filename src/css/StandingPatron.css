@@ -1,0 +1,120 @@
+.standing-patron {
+  background-size: 35px 70px;
+  image-rendering: pixelated;
+  margin: auto;
+  z-index: 4;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+  background: url(./images/chara2_4/right_stand.png) no-repeat;
+  background-size: 35px 70px;
+  top: 171px;
+  left: 5px;
+}
+
+.standing-patron.true {
+  animation: laughing infinite linear 5s;
+}
+
+.standing-patron:hover {
+  cursor: pointer;
+}
+
+@keyframes laughing {
+  0% {
+    background: url(./images/chara2_4/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  32% {
+    background: url(./images/chara2_4/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  33% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  34% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  35% {
+    background: url(./images/chara2_4/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  36% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  37% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  38% {
+    background: url(./images/chara2_4/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  39% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  40% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  41% {
+    background: url(./images/chara2_4/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  42% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  43% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  44% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  45% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  46% {
+    background: url(./images/chara2_4/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  47% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  48% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  49% {
+    background: url(./images/chara2_4/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  50% {
+    background: url(./images/chara2_4/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  51% {
+    background: url(./images/chara2_4/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  52% {
+    background: url(./images/chara2_4/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  53% {
+    background: url(./images/chara2_4/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  100% {
+    background: url(./images/chara2_4/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+}

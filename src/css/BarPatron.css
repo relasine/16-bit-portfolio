@@ -1,0 +1,98 @@
+.bar-patron {
+  image-rendering: pixelated;
+  margin: auto;
+  z-index: 4;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+  top: 220px;
+  left: 63px;
+  animation: patron infinite 12s steps(15, start),
+    move-patron infinite 12s linear;
+}
+
+.bar-patron:hover {
+  cursor: pointer;
+}
+
+@keyframes patron {
+  0% {
+    background: url(./images/chara5_5/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  5% {
+    background: url(./images/chara5_5/right_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  10% {
+    background: url(./images/chara5_5/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  15% {
+    background: url(./images/chara5_5/right_walk2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  20% {
+    background: url(./images/chara5_5/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+
+  22% {
+    background: url(./images/chara5_5/up_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  50% {
+    background: url(./images/chara5_5/up_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  51% {
+    background: url(./images/chara5_5/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  55% {
+    background: url(./images/chara5_5/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  60% {
+    background: url(./images/chara5_5/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  65% {
+    background: url(./images/chara5_5/left_walk2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  70% {
+    background: url(./images/chara5_5/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  75% {
+    background: url(./images/chara5_5/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  88% {
+    background: url(./images/chara5_5/up_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  100% {
+    background: url(./images/chara5_5/up_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+}
+
+@keyframes move-patron {
+  0% {
+    left: 63px;
+  }
+  20% {
+    left: 180px;
+  }
+  50% {
+    left: 180px;
+  }
+  75% {
+    left: 63px;
+  }
+  100% {
+    left: 63px;
+  }
+}

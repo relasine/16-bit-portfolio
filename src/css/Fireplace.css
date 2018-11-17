@@ -1,0 +1,29 @@
+.fireplace {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  image-rendering: pixelated;
+  animation: fireplace infinite steps(4, end) 1s;
+  z-index: 3;
+  top: 140px;
+  left: 68px;
+}
+
+@keyframes fireplace {
+  0% {
+    background: url("images/fireplace/fire1.png") no-repeat;
+    background-size: 22px 25px;
+  }
+  33% {
+    background: url("images/fireplace/fire2.png") no-repeat;
+    background-size: 22px 25px;
+  }
+  66% {
+    background: url("images/fireplace/fire3.png") no-repeat;
+    background-size: 22px 25px;
+  }
+  100% {
+    background: url("images/fireplace/fire1.png") no-repeat;
+    background-size: 22px 25px;
+  }
+}

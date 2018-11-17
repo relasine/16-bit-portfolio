@@ -1,0 +1,365 @@
+@font-face {
+  font-family: "ChronoType";
+  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+}
+
+.intro-wrapper {
+  margin: 3rem auto;
+  position: relative;
+  width: 345px;
+  height: 430px;
+  overflow: hidden;
+}
+
+.house {
+  position: absolute;
+  background: url("images/house.png") no-repeat;
+  width: 345px;
+  height: 300px;
+  z-index: 3;
+}
+
+.grass {
+  position: absolute;
+  image-rendering: pixelated;
+  background: url("images/grass.png") no-repeat;
+  width: 355px;
+  height: 30px;
+  background-repeat: repeat-x;
+  z-index: 2;
+  top: 200px;
+}
+
+.sidewalk {
+  position: absolute;
+  image-rendering: pixelated;
+  background-size: 370px 70px;
+  top: 230px;
+  background: url("images/sidewalk.png") no-repeat;
+  width: 355px;
+  height: 70px;
+}
+
+.guy,
+.guy-two {
+  background-size: 35px 70px;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  margin: auto;
+  z-index: 4;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+}
+
+.guy {
+  top: 205px;
+  left: 15px;
+  background: url(./images/char1/right_stand.png);
+  animation: char1-path infinite 16s steps(32), move linear infinite 16s;
+}
+
+.guy-two {
+  top: 208px;
+  left: 290px;
+  background: url(./images/char2/down_stand.png);
+  animation: char2 linear infinite 16s;
+}
+
+.guy:hover,
+.guy-two:hover {
+  cursor: pointer;
+}
+
+.char1-dialogue,
+.char2-dialogue {
+  position: absolute;
+  top: 310px;
+  font-family: "ChronoType";
+  font-size: 1.5rem;
+  width: 335px;
+  margin: 0 10px;
+  left: -400px;
+  transition: 0.5s;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.char1-dialogue.true,
+.char2-dialogue.true {
+  left: 0;
+}
+
+@keyframes char1-path {
+  0% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  2% {
+    background: url(./images/char1/right_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  4% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  6% {
+    background: url(./images/char1/right_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  8% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  10% {
+    background: url(./images/char1/right_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  12% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  14% {
+    background: url(./images/char1/right_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  16% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  18% {
+    background: url(./images/char1/right_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  20% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  25% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  44% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  46% {
+    background: url(./images/char1/down_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  49% {
+    background: url(./images/char1/down_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  70% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  52% {
+    background: url(./images/char1/left_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  54% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  56% {
+    background: url(./images/char1/left_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  58% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  60% {
+    background: url(./images/char1/left_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  62% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  64% {
+    background: url(./images/char1/left_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  66% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  68% {
+    background: url(./images/char1/left_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  70% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+
+  72% {
+    background: url(./images/char1/left_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  74% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  89% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  90% {
+    background: url(./images/char1/down_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  99% {
+    background: url(./images/char1/down_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  100% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 15px;
+  }
+  22% {
+    left: 230px;
+  }
+  50% {
+    left: 230px;
+  }
+  75% {
+    left: 15px;
+  }
+  100% {
+    left: 15px;
+  }
+}
+
+@keyframes char2 {
+  0% {
+    background: url(./images/char2/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  24% {
+    background: url(./images/char2/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  25% {
+    background: url(./images/char2/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  33% {
+    background: url(./images/char2/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  34% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  34.5% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  35% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  35.5% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  36% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  36.5% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  37% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  37.5% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  38% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  38.5% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  39% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  39.5% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  40% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  40.5% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  41% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  41.5% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  42% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  42.5% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  43% {
+    background: url(./images/char2/laugh1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  43.5% {
+    background: url(./images/char2/laugh2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  44% {
+    background: url(./images/char2/laugh3.png) no-repeat;
+    background-size: 35px 70px;
+  }
+
+  45% {
+    background: url(./images/char2/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  100% {
+    background: url(./images/char2/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+}

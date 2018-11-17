@@ -1,0 +1,57 @@
+.nodding-patron {
+  background-size: 35px 70px;
+  image-rendering: pixelated;
+  margin: auto;
+  z-index: 2;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+  background-size: 35px 70px;
+  top: 145px;
+  left: 165px;
+  animation: nodding infinite 3s;
+  animation-timing-function: steps(4, end);
+}
+
+.nodding-patron:hover {
+  cursor: pointer;
+}
+
+@keyframes nodding {
+  0% {
+    background: url(./images/chara3_7/nod1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  24% {
+    background: url(./images/chara3_7/nod1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  25% {
+    background: url(./images/chara3_7/nod2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  49% {
+    background: url(./images/chara3_7/nod2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  50% {
+    background: url(./images/chara3_7/nod1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  74% {
+    background: url(./images/chara3_7/nod1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  75% {
+    background: url(./images/chara3_7/nod2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  99% {
+    background: url(./images/chara3_7/nod2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  100% {
+    background: url(./images/chara3_7/nod1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+}
