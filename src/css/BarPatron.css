@@ -20,66 +20,127 @@
   0% {
     background: url(./images/chara5_5/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  4.9% {
+    background: url(./images/chara5_5/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   5% {
     background: url(./images/chara5_5/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  9.9% {
+    background: url(./images/chara5_5/right_walk1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   10% {
     background: url(./images/chara5_5/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  14.9% {
+    background: url(./images/chara5_5/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   15% {
     background: url(./images/chara5_5/right_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  19.9% {
+    background: url(./images/chara5_5/right_walk2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   20% {
     background: url(./images/chara5_5/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   21.9% {
     background: url(./images/chara5_5/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   22% {
     background: url(./images/chara5_5/up_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   50% {
     background: url(./images/chara5_5/up_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   51% {
     background: url(./images/chara5_5/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  54.9% {
+    background: url(./images/chara5_5/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   55% {
     background: url(./images/chara5_5/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  59.9% {
+    background: url(./images/chara5_5/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   60% {
     background: url(./images/chara5_5/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  64.9% {
+    background: url(./images/chara5_5/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   65% {
     background: url(./images/chara5_5/left_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  69.9% {
+    background: url(./images/chara5_5/left_walk2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   70% {
     background: url(./images/chara5_5/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
+  }
+  74.9% {
+    background: url(./images/chara5_5/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   75% {
     background: url(./images/chara5_5/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   75.1% {
     background: url(./images/chara5_5/up_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   100% {
     background: url(./images/chara5_5/up_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
 }
 

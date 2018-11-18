@@ -113,23 +113,39 @@
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  1.99% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   2% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  3.99% {
+    background: url(./images/char1/right_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   4% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  5.99% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   6% {
     background: url(./images/char1/right_walk2.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  7.99% {
+    background: url(./images/char1/right_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   8% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  9.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
@@ -137,22 +153,39 @@
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  11.99% {
+    background: url(./images/char1/right_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   12% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  13.99% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   14% {
     background: url(./images/char1/right_walk2.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  15.99% {
+    background: url(./images/char1/right_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   16% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
+  17.99% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   18% {
+    background: url(./images/char1/right_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  19.99% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
   }
@@ -168,7 +201,15 @@
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
+  45.99% {
+    background: url(./images/char1/right_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   46% {
+    background: url(./images/char1/down_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  48.99% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
@@ -176,21 +217,31 @@
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-  70% {
-    background: url(./images/char1/left_stand.png) no-repeat center;
+  51.99% {
+    background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
   52% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  53.99% {
+    background: url(./images/char1/left_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   54% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  55.99% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   56% {
+    background: url(./images/char1/left_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  57.99% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
   }
@@ -198,18 +249,31 @@
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  59.99% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   60% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  61.99% {
+    background: url(./images/char1/left_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   62% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  63.99% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   64% {
+    background: url(./images/char1/left_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  65.99% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
   }
@@ -217,17 +281,31 @@
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
+  67.99% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   68% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  69.99% {
+    background: url(./images/char1/left_walk1.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   70% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
   }
-
+  71.99% {
+    background: url(./images/char1/left_stand.png) no-repeat center;
+    background-size: 35px 70px;
+  }
   72% {
+    background: url(./images/char1/left_walk2.png) no-repeat center;
+    background-size: 35px 70px;
+  }
+  73.99% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
   }
@@ -276,7 +354,7 @@
     background: url(./images/char2/down_stand.png) no-repeat;
     background-size: 35px 70px;
   }
-  24% {
+  24.99% {
     background: url(./images/char2/down_stand.png) no-repeat;
     background-size: 35px 70px;
   }
@@ -284,7 +362,7 @@
     background: url(./images/char2/left_stand.png) no-repeat;
     background-size: 35px 70px;
   }
-  33% {
+  33.99% {
     background: url(./images/char2/left_stand.png) no-repeat;
     background-size: 35px 70px;
   }
