@@ -6,13 +6,13 @@ const NavMenu = props => {
     <nav className={`nav-menu ${props.menuDeployed}`}>
       <ul>
         <li>
-          <a href="#">about</a>
+          <a href="#intro-link">about</a>
         </li>
         <li>
-          <a href="#">projects</a>
+          <a href="#projects-link">projects</a>
         </li>
         <li>
-          <a href="#">contact</a>
+          <a href="#social-link">contact</a>
         </li>
       </ul>
     </nav>

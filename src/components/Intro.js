@@ -26,7 +26,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <section className="intro-row">
+      <section className="intro-row" id="intro-link">
         <h4 className="intro-text">Kevin Simpson</h4>
         <section className="intro-wrapper">
           <div className="house" />

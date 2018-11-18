@@ -9,25 +9,25 @@ const SocialWindow = props => {
       </p>
       <section className="contact-wrapper">
         <div className="social-pair-container">
-          <a href="#">
+          <a href="https://twitter.com/relasine" target="_blank">
             <img src="./twitter-icon.png" alt="twitter" />
             twitter
           </a>
         </div>
         <div className="social-pair-container">
-          <a href="#">
+          <a href="https://github.com/relasine" target="_blank">
             <img src="./github-icon.png" alt="github" />
             github
           </a>
         </div>
         <div className="social-pair-container">
-          <a href="#">
+          <a href="https://www.instagram.com/kevinjohnsimpson/" target="_blank">
             <img src="./instagram-icon.png" alt="instagram" />
             instagram
           </a>
         </div>
         <div className="social-pair-container">
-          <a href="#">
+          <a href="mailto:simpsonkevinjohn@gmail.com">
             <img src="./mail-icon.png" alt="mail" />
             email
           </a>

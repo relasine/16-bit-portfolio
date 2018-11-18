@@ -10,6 +10,10 @@
   margin: 3rem auto;
 }
 
+.projects a {
+  text-decoration: none;
+}
+
 .projects-text {
   font-family: "ChronoType";
   font-size: 2rem;

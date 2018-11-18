@@ -36,7 +36,7 @@ class ContactSocial extends Component {
 
   render() {
     return (
-      <section className="social-row">
+      <section className="social-row" id="social-link">
         <h4 className="social-text">Social/Contact Info</h4>
         <section className="contact-social">
           <div className="item-shop" onClick={this.closeWindow}>
