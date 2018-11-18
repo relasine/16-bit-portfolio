@@ -5,11 +5,11 @@
   height: 70px;
   width: 35px;
   position: absolute;
-  background-size: 35px 70px;
   top: 150px;
   left: 275px;
   background: url(./images/npc1_1/down_stand.png) no-repeat;
   background-size: 35px 70px;
+  image-rendering: pixelated;
   animation: shopkeep-move 9s infinite linear, shopkeep-walk 9s infinite linear;
 }
 
@@ -39,161 +39,201 @@
   0% {
     background: url(./images/npc1_1/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   2.9% {
     background: url(./images/npc1_1/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   3% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   5.9% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   6% {
     background: url(./images/npc1_1/left_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   8.9% {
     background: url(./images/npc1_1/left_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   9% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   11.9% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   12% {
     background: url(./images/npc1_1/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   14.9% {
     background: url(./images/npc1_1/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   15% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   17.9% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   18% {
     background: url(./images/npc1_1/left_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   20.9% {
     background: url(./images/npc1_1/left_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   21% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   23.9% {
     background: url(./images/npc1_1/left_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   24% {
     background: url(./images/npc1_1/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   24.99% {
     background: url(./images/npc1_1/left_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   25% {
     background: url(./images/npc1_1/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   49.9% {
     background: url(./images/npc1_1/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   50% {
     background: url(./images/npc1_1/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   52.9% {
     background: url(./images/npc1_1/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   53% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   55.9% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   56% {
     background: url(./images/npc1_1/right_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   58.9% {
     background: url(./images/npc1_1/right_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   59% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   61.9% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   62% {
     background: url(./images/npc1_1/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   64.9% {
     background: url(./images/npc1_1/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   65% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   67.9% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   68% {
     background: url(./images/npc1_1/right_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   70.9% {
     background: url(./images/npc1_1/right_walk2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   71% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   73.9% {
     background: url(./images/npc1_1/right_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   74% {
     background: url(./images/npc1_1/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   74.99% {
     background: url(./images/npc1_1/right_walk1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   75% {
     background: url(./images/npc1_1/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   100% {
     background: url(./images/npc1_1/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
 }

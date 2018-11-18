@@ -1,6 +1,7 @@
 .standing-patron {
   background-size: 35px 70px;
   image-rendering: pixelated;
+  image-rendering: pixelated;
   margin: auto;
   z-index: 4;
   height: 70px;
@@ -8,6 +9,7 @@
   position: absolute;
   background: url(./images/chara2_4/right_stand.png) no-repeat;
   background-size: 35px 70px;
+  image-rendering: pixelated;
   top: 171px;
   left: 5px;
 }
@@ -24,97 +26,121 @@
   0% {
     background: url(./images/chara2_4/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   32% {
     background: url(./images/chara2_4/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   33% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   34% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   35% {
     background: url(./images/chara2_4/laugh3.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   36% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   37% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   38% {
     background: url(./images/chara2_4/laugh3.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   39% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   40% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   41% {
     background: url(./images/chara2_4/laugh3.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   42% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   43% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   44% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   45% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   46% {
     background: url(./images/chara2_4/laugh3.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   47% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   48% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   49% {
     background: url(./images/chara2_4/laugh3.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   50% {
     background: url(./images/chara2_4/laugh1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   51% {
     background: url(./images/chara2_4/laugh2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   52% {
     background: url(./images/chara2_4/laugh3.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   53% {
     background: url(./images/chara2_4/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   100% {
     background: url(./images/chara2_4/down_stand.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
 }
