@@ -1,6 +1,6 @@
 .standing-patron {
   background-size: 35px 70px;
-  image-rendering: pixelated;
+  image-rendering: crisp-edges;
   margin: auto;
   z-index: 4;
   height: 70px;

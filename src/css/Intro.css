@@ -51,7 +51,6 @@
 
 .sidewalk {
   position: absolute;
-  image-rendering: pixelated;
   background-size: 370px 70px;
   top: 230px;
   background: url("images/sidewalk.png") no-repeat;

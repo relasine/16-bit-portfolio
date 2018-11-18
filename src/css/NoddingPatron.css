@@ -21,37 +21,46 @@
   0% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   24% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   25% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   49% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   50% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   74% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   75% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   99% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
   100% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
+    image-rendering: pixelated;
   }
 }
