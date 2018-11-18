@@ -3,12 +3,29 @@
   src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
 }
 
+.intro-row {
+  display: flex;
+  width: 690px;
+  margin: auto;
+}
+
 .intro-wrapper {
-  margin: 3rem auto;
+  margin: 0;
   position: relative;
   width: 345px;
   height: 430px;
   overflow: hidden;
+}
+
+.intro-text {
+  font-family: "ChronoType";
+  font-size: 2rem;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 0;
+  height: 300px;
+  width: 345px;
+  text-align: center;
+  line-height: 300px;
 }
 
 .house {
@@ -17,6 +34,7 @@
   width: 345px;
   height: 300px;
   z-index: 3;
+  image-rendering: pixelated;
 }
 
 .grass {
@@ -28,6 +46,7 @@
   background-repeat: repeat-x;
   z-index: 2;
   top: 200px;
+  image-rendering: pixelated;
 }
 
 .sidewalk {
@@ -38,6 +57,7 @@
   background: url("images/sidewalk.png") no-repeat;
   width: 355px;
   height: 70px;
+  image-rendering: pixelated;
 }
 
 .guy,

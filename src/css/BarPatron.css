@@ -36,7 +36,10 @@
     background: url(./images/chara5_5/right_stand.png) no-repeat;
     background-size: 35px 70px;
   }
-
+  21.9% {
+    background: url(./images/chara5_5/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
   22% {
     background: url(./images/chara5_5/up_stand.png) no-repeat;
     background-size: 35px 70px;
@@ -69,7 +72,7 @@
     background: url(./images/chara5_5/left_walk1.png) no-repeat;
     background-size: 35px 70px;
   }
-  88% {
+  75.1% {
     background: url(./images/chara5_5/up_stand.png) no-repeat;
     background-size: 35px 70px;
   }

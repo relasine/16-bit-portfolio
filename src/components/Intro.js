@@ -26,20 +26,23 @@ class Intro extends Component {
 
   render() {
     return (
-      <section className="intro-wrapper">
-        <div className="house" />
-        <div className="grass" />
-        <div className="sidewalk" />
-        <div className="guy" onClick={this.char1} />
-        <div className="guy-two" onClick={this.char2} />
-        <p className={`char1-dialogue ${this.state.char1}`}>
-          Kevin Simpson is a front-end developer with a love for React, CSS
-          transitions and animations, design, and archaic 16-bit role-playing
-          games from the early 90's.
-        </p>
-        <p className={`char2-dialogue ${this.state.char2}`}>
-          Also, handsome af.
-        </p>
+      <section className="intro-row">
+        <h4 className="intro-text">Kevin Simpson</h4>
+        <section className="intro-wrapper">
+          <div className="house" />
+          <div className="grass" />
+          <div className="sidewalk" />
+          <div className="guy" onClick={this.char1} />
+          <div className="guy-two" onClick={this.char2} />
+          <p className={`char1-dialogue ${this.state.char1}`}>
+            Kevin Simpson is a front-end developer with a love for React, CSS
+            transitions and animations, design, and archaic 16-bit role-playing
+            games from the early 90's.
+          </p>
+          <p className={`char2-dialogue ${this.state.char2}`}>
+            Also, handsome af.
+          </p>
+        </section>
       </section>
     );
   }

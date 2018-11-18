@@ -1,0 +1,135 @@
+.shopkeep {
+  image-rendering: pixelated;
+  margin: auto;
+  z-index: 4;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+  background-size: 35px 70px;
+  top: 150px;
+  left: 275px;
+  background: url(./images/npc1_1/down_stand.png) no-repeat;
+  background-size: 35px 70px;
+  animation: shopkeep-move 9s infinite linear, shopkeep-walk 9s infinite linear;
+}
+
+.shopkeep:hover {
+  cursor: pointer;
+}
+
+@keyframes shopkeep-move {
+  0% {
+    left: 255px;
+  }
+  25% {
+    left: 100px;
+  }
+  50% {
+    left: 100px;
+  }
+  75% {
+    left: 255px;
+  }
+  100% {
+    left: 255px;
+  }
+}
+
+@keyframes shopkeep-walk {
+  0% {
+    background: url(./images/npc1_1/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  3% {
+    background: url(./images/npc1_1/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  6% {
+    background: url(./images/npc1_1/left_walk2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  9% {
+    background: url(./images/npc1_1/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  12% {
+    background: url(./images/npc1_1/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  15% {
+    background: url(./images/npc1_1/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  18% {
+    background: url(./images/npc1_1/left_walk2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  21% {
+    background: url(./images/npc1_1/left_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  24% {
+    background: url(./images/npc1_1/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  24.99% {
+    background: url(./images/npc1_1/left_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  25% {
+    background: url(./images/npc1_1/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  49.9% {
+    background: url(./images/npc1_1/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  50% {
+    background: url(./images/npc1_1/right_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  53% {
+    background: url(./images/npc1_1/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  56% {
+    background: url(./images/npc1_1/right_walk2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  59% {
+    background: url(./images/npc1_1/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  62% {
+    background: url(./images/npc1_1/right_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  65% {
+    background: url(./images/npc1_1/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  68% {
+    background: url(./images/npc1_1/right_walk2.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  71% {
+    background: url(./images/npc1_1/right_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  74% {
+    background: url(./images/npc1_1/right_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  74.99% {
+    background: url(./images/npc1_1/right_walk1.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  75% {
+    background: url(./images/npc1_1/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+  100% {
+    background: url(./images/npc1_1/down_stand.png) no-repeat;
+    background-size: 35px 70px;
+  }
+}

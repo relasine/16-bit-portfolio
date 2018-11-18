@@ -3,14 +3,22 @@
   src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
 }
 
-.projects-row {
+.contact-social {
+  margin: auto;
+  position: relative;
+  width: 345px;
+  height: 430px;
+  overflow: hidden;
+}
+
+.social-row {
   display: flex;
   width: 690px;
   height: 430px;
   margin: 3rem auto;
 }
 
-.projects-text {
+.social-text {
   font-family: "ChronoType";
   font-size: 2rem;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -21,25 +29,26 @@
   line-height: 300px;
 }
 
-.projects {
-  position: relative;
-  width: 345px;
-  height: 430px;
-  overflow: hidden;
-}
-
-.tavern {
-  background: url("images/tavern.png") no-repeat;
+.item-shop {
+  background: url("images/itemshop.png") no-repeat;
   width: 345px;
   height: 300px;
   image-rendering: pixelated;
 }
 
-.bard-dialogue,
-.barkeep-dialogue,
-.bar-patron-dialogue,
-.nodding-patron-dialogue,
-.standing-patron-dialogue {
+.window-button {
+  height: 35px;
+  width: 50px;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+
+.window-button:hover {
+  cursor: pointer;
+}
+
+.shop-keep-dialogue {
   position: absolute;
   top: 310px;
   font-family: "ChronoType";
@@ -51,10 +60,6 @@
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 
-.bard-dialogue.true,
-.barkeep-dialogue.true,
-.bar-patron-dialogue.true,
-.nodding-patron-dialogue.true,
-.standing-patron-dialogue.true {
+.shop-keep-dialogue.true {
   left: 0;
 }

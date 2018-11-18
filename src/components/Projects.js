@@ -81,40 +81,45 @@ class Projects extends Component {
 
   render() {
     return (
-      <section className="projects">
-        <div className="tavern" />
-        <Barkeep dialogue={this.barkeep} />
-        <Bard dialogue={this.bard} />
-        <BarPatron dialogue={this.barPatron} />
-        <NoddingPatron dialogue={this.noddingPatron} />
-        <StandingPatron
-          active={this.state.laughPatron}
-          dialogue={this.standingPatron}
-        />
-        <Fireplace />
-        <p className={`bard-dialogue ${this.state.bard}`}>
-          MovieTracker is a web application that allows users to search and
-          filter films and favorite them. It uses the Movie Database API.
-          Powered by React.js, Redux, and Express.
-        </p>
-        <p className={`barkeep-dialogue ${this.state.barkeep}`}>
-          SWAPIBox, aka "Jedi Archives Access", is an application that requires
-          a series of nested API calls for displaying Star Wars-related data. A
-          highly-narrative experience powered by React.
-        </p>
-        <p className={`bar-patron-dialogue ${this.state.barPatron}`}>
-          NOM NOM Snake is a fun take on the classic arcade game, 'Snake'.
-          Powered by object-oriented JavaScript and HTML Canvas.
-        </p>
-        <p className={`nodding-patron-dialogue ${this.state.noddingPatron}`}>
-          Headcount is a React application used to sort, display, and compare
-          test score information for different Colorado school districts.
-        </p>
-        <p className={`standing-patron-dialogue ${this.state.standingPatron}`}>
-          Nmbus Weather is a web-application built for phones the utilizies the
-          Weather Underground API to display weather forecasts. Locations are
-          searchable by city name or zip code. Powered by React.
-        </p>
+      <section className="projects-row">
+        <section className="projects">
+          <div className="tavern" />
+          <Barkeep dialogue={this.barkeep} />
+          <Bard dialogue={this.bard} />
+          <BarPatron dialogue={this.barPatron} />
+          <NoddingPatron dialogue={this.noddingPatron} />
+          <StandingPatron
+            active={this.state.laughPatron}
+            dialogue={this.standingPatron}
+          />
+          <Fireplace />
+          <p className={`bard-dialogue ${this.state.bard}`}>
+            MovieTracker is a web application that allows users to search and
+            filter films and favorite them. It uses the Movie Database API.
+            Powered by React.js, Redux, and Express.
+          </p>
+          <p className={`barkeep-dialogue ${this.state.barkeep}`}>
+            SWAPIBox, aka "Jedi Archives Access", is an application that
+            requires a series of nested API calls for displaying Star
+            Wars-related data. A highly-narrative experience powered by React.
+          </p>
+          <p className={`bar-patron-dialogue ${this.state.barPatron}`}>
+            NOM NOM Snake is a fun take on the classic arcade game, 'Snake'.
+            Powered by object-oriented JavaScript and HTML Canvas.
+          </p>
+          <p className={`nodding-patron-dialogue ${this.state.noddingPatron}`}>
+            Headcount is a React application used to sort, display, and compare
+            test score information for different Colorado school districts.
+          </p>
+          <p
+            className={`standing-patron-dialogue ${this.state.standingPatron}`}
+          >
+            Nmbus Weather is a web-application built for phones the utilizies
+            the Weather Underground API to display weather forecasts. Locations
+            are searchable by city name or zip code. Powered by React.
+          </p>
+        </section>
+        <h4 className="projects-text">Projects</h4>
       </section>
     );
   }

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "ChronoType";
+  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+}
+
+.social-window {
+  font-family: "ChronoType";
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  margin: 3rem auto;
+
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  background: url("./images/social-board.png") no-repeat;
+  background-size: 300px 250px;
+  height: 0px;
+  width: 300px;
+  z-index: 4;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.close-social {
+  margin: 1rem 1.3rem 1.7rem;
+  font-size: 2rem;
+  width: 20px;
+}
+
+.close-social:hover {
+  cursor: pointer;
+}
+
+.social-window.true {
+  height: 250px;
+}
+
+.contact-wrapper {
+  width: 225px;
+  margin: auto;
+}
+
+.contact-wrapper a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+  color: #000;
+  height: 30px;
+}
+
+.contact-wrapper img {
+  margin-right: 1rem;
+
+  height: 20px;
+}
+
+.social-pair-container {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  margin: auto;
+}
