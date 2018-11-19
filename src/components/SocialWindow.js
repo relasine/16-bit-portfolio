@@ -9,6 +9,15 @@ const SocialWindow = props => {
       </p>
       <section className="contact-wrapper">
         <div className="social-pair-container">
+          <a
+            href="https://www.linkedin.com/in/kevinjohnsimpson/"
+            target="_blank"
+          >
+            <img src="./linkedin-icon.png" alt="linkedin" />
+            linkedin
+          </a>
+        </div>
+        <div className="social-pair-container">
           <a href="https://twitter.com/relasine" target="_blank">
             <img src="./twitter-icon.png" alt="twitter" />
             twitter
