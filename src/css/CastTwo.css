@@ -1,0 +1,392 @@
+.cast-two {
+  margin: auto;
+  z-index: 4;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background: url("./images/cast-two/ice-c-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -10px;
+  left: 3px;
+  -moz-animation: cast-two infinite 7s;
+  -webkit-animation: cast-two infinite 7s;
+  animation: cast-two infinite 7s;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+}
+
+@keyframes cast-two {
+  0% {
+    background: none;
+  }
+  7.99% {
+    background: none;
+  }
+  8% {
+    background: url("./images/cast-two/ice-c-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  11.99% {
+    background: url("./images/cast-two/ice-c-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  12% {
+    background: url("./images/cast-two/ice-c-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  15.99% {
+    background: url("./images/cast-two/ice-c-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  16% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  19.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  22.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  23% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  26.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  27% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  30.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  31% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  34.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  35% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  38.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  39% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  42.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  43% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  46.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  47% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  51% {
+    background: none;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@-moz-keyframes cast-two {
+  0% {
+    background: none;
+  }
+  7.99% {
+    background: none;
+  }
+  8% {
+    background: url("./images/cast-two/ice-c-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  11.99% {
+    background: url("./images/cast-two/ice-c-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  12% {
+    background: url("./images/cast-two/ice-c-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  15.99% {
+    background: url("./images/cast-two/ice-c-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  16% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  19.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  22.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  23% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  26.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  27% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  30.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  31% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  34.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  35% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  38.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  39% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  42.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  43% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  46.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  47% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  51% {
+    background: none;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@-webkit-keyframes cast-two {
+  0% {
+    background: none;
+  }
+  7.99% {
+    background: none;
+  }
+  8% {
+    background: url("./images/cast-two/ice-c-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  11.99% {
+    background: url("./images/cast-two/ice-c-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  12% {
+    background: url("./images/cast-two/ice-c-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  15.99% {
+    background: url("./images/cast-two/ice-c-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  16% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  19.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  22.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  23% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  26.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  27% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  30.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  31% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  34.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  35% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  38.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  39% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  42.99% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  43% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  46.99% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  47% {
+    background: url("./images/cast-two/ice-c-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background: url("./images/cast-two/ice-c-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  51% {
+    background: none;
+  }
+  100% {
+    background: none;
+  }
+}

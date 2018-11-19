@@ -1,0 +1,257 @@
+.spell-one {
+  margin: auto;
+  z-index: 4;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background: url("./images/spell-one/lightning1_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 105px;
+  left: 139px;
+  -moz-animation: spell-one infinite 7s;
+  -webkit-animation: spell-one infinite 7s;
+  animation: spell-one infinite 7s;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+}
+
+@keyframes spell-one {
+  0% {
+    background: none;
+  }
+  49.99% {
+    background: none;
+  }
+  50% {
+    background: url("./images/spell-two/ice2_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  52% {
+    background: url("./images/spell-two/ice2_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  54% {
+    background: url("./images/spell-two/ice2_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  56% {
+    background: url("./images/spell-two/ice2_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  58% {
+    background: url("./images/spell-two/ice2_5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background: url("./images/spell-two/ice2_6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  62% {
+    background: url("./images/spell-two/ice2_7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  64% {
+    background: url("./images/spell-two/ice2_8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  66% {
+    background: url("./images/spell-two/ice2_9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  68% {
+    background: url("./images/spell-two/ice2_10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  70% {
+    background: url("./images/spell-two/ice2_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  72% {
+    background: url("./images/spell-two/ice2_12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  74% {
+    background: url("./images/spell-two/ice2_13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  76% {
+    background: none;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@-moz-keyframes spell-one {
+  0% {
+    background: none;
+  }
+  49.99% {
+    background: none;
+  }
+  50% {
+    background: url("./images/spell-two/ice2_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  52% {
+    background: url("./images/spell-two/ice2_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  54% {
+    background: url("./images/spell-two/ice2_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  56% {
+    background: url("./images/spell-two/ice2_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  58% {
+    background: url("./images/spell-two/ice2_5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background: url("./images/spell-two/ice2_6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  62% {
+    background: url("./images/spell-two/ice2_7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  64% {
+    background: url("./images/spell-two/ice2_8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  66% {
+    background: url("./images/spell-two/ice2_9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  68% {
+    background: url("./images/spell-two/ice2_10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  70% {
+    background: url("./images/spell-two/ice2_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  72% {
+    background: url("./images/spell-two/ice2_12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  74% {
+    background: url("./images/spell-two/ice2_13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  76% {
+    background: none;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@-webkit-keyframes spell-one {
+  0% {
+    background: none;
+  }
+  49.99% {
+    background: none;
+  }
+  50% {
+    background: url("./images/spell-two/ice2_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  52% {
+    background: url("./images/spell-two/ice2_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  54% {
+    background: url("./images/spell-two/ice2_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  56% {
+    background: url("./images/spell-two/ice2_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  58% {
+    background: url("./images/spell-two/ice2_5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background: url("./images/spell-two/ice2_6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  62% {
+    background: url("./images/spell-two/ice2_7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  64% {
+    background: url("./images/spell-two/ice2_8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  66% {
+    background: url("./images/spell-two/ice2_9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  68% {
+    background: url("./images/spell-two/ice2_10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  70% {
+    background: url("./images/spell-two/ice2_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  72% {
+    background: url("./images/spell-two/ice2_12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  74% {
+    background: url("./images/spell-two/ice2_13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  76% {
+    background: none;
+  }
+  100% {
+    background: none;
+  }
+}

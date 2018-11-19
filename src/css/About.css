@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "ChronoType";
+  src: url("./fonts/ChronoType.ttf") format("ttf"),
+    url("fonts/ChronoType.woff2");
+}
+
+.about {
+  position: relative;
+  height: 430px;
+  width: 690px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.about-row {
+  display: grid;
+  grid-template-columns: 345px 345px;
+  width: 690px;
+  height: 430px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-family: "ChronoType";
+  font-size: 2rem;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 0;
+  width: 345px;
+  line-height: 300px;
+  text-align: center;
+  grid-column: 2;
+}
+
+.about p {
+  position: absolute;
+  top: 310px;
+  font-family: "ChronoType";
+  font-size: 1.5rem;
+  width: 335px;
+  margin: 0 10px;
+  height: 130px;
+  left: -400px;
+  transition: 0.5s;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about-scene-column {
+  grid-row: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-scene {
+  background: url("images/darkworld1.png") no-repeat;
+  width: 345px;
+  height: 300px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  -moz-animation: darkworld infinite 8s;
+  -webkit-animation: darkworld infinite 8s;
+  animation: darkworld infinite 8s;
+}
+
+.fighter-one-dialogue,
+.fighter-two-dialogue,
+.fighter-three-dialogue {
+  position: absolute;
+  left: -400px;
+}
+
+.fighter-one-dialogue.true,
+.fighter-two-dialogue.true,
+.fighter-three-dialogue.true {
+  left: 0;
+}
+
+@keyframes darkworld {
+  0% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  33% {
+    background: url("images/darkworld2.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  66% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  100% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+}
+
+@-moz-keyframes darkworld {
+  0% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  33% {
+    background: url("images/darkworld2.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  66% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  100% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+}
+
+@-webkit-keyframes darkworld {
+  0% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  25% {
+    background: url("images/darkworld2.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  50% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  75% {
+    background: url("images/darkworld2.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+  100% {
+    background: url("images/darkworld1.png") no-repeat;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+  }
+}
+
+@media (max-width: 730px) {
+  .about {
+    height: 480px;
+    width: 345px;
+  }
+  .about-row {
+    grid-template-columns: 1fr;
+    width: 345px;
+    height: 480px;
+    margin-top: 1rem;
+  }
+
+  .about-scene {
+    height: 300px;
+  }
+
+  .about-text {
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .about-scene-column {
+    grid-column: 1;
+    grid-row: 2;
+    height: 480px;
+  }
+  .fighter-one-dialogue,
+  .fighter-two-dialogue,
+  .fighter-three-dialogue {
+    height: 130px;
+  }
+}

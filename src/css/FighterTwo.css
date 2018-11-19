@@ -1,0 +1,677 @@
+.fighter-two {
+  margin: auto;
+  z-index: 6;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 175px;
+  left: 200px;
+  -moz-animation: fighter-two infinite 5s;
+  -webkit-animation: fighter-two infinite 5s;
+  animation: fighter-two infinite 5s;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+}
+
+.fighter-two:hover {
+  cursor: pointer;
+}
+
+@keyframes fighter-two {
+  0% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  3.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  4% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  7.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  11.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  12% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  15.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  16% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  19.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  20% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  23.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  24% {
+    background: url("./images/fighter_two/3_7_atk1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  29.99% {
+    background: url("./images/fighter_two/3_7_atk1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  30% {
+    background: url("./images/fighter_two/3_7_atk1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  38.99 {
+    background: url("./images/fighter_two/3_7_atk1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  39% {
+    background: url("./images/fighter_two/3_7_atk1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  40% {
+    background: url("./images/fighter_two/3_7_atk1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  41% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  49.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  54.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  55% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  59.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  60% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  63.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  64% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  67.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  68% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  71.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  72% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  76% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  79.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  80% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  82.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  83% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  88% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  91.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  92% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  99.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  100% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@-moz-keyframes fighter-two {
+  0% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  3.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  4% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  7.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  11.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  12% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  15.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  16% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  19.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  20% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  23.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  24% {
+    background: url("./images/fighter_two/3_7_atk1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  29.99% {
+    background: url("./images/fighter_two/3_7_atk1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  30% {
+    background: url("./images/fighter_two/3_7_atk1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  38.99 {
+    background: url("./images/fighter_two/3_7_atk1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  39% {
+    background: url("./images/fighter_two/3_7_atk1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  40% {
+    background: url("./images/fighter_two/3_7_atk1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  41% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  49.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  54.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  55% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  59.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  60% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  63.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  64% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  67.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  68% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  71.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  72% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  76% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  79.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  80% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  82.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  83% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  88% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  91.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  92% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  99.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  100% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes fighter-two {
+  0% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  3.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  4% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  7.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  11.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  12% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  15.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  16% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  19.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  20% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  23.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  24% {
+    background: url("./images/fighter_two/3_7_atk1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  29.99% {
+    background: url("./images/fighter_two/3_7_atk1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  30% {
+    background: url("./images/fighter_two/3_7_atk1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  38.99 {
+    background: url("./images/fighter_two/3_7_atk1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  39% {
+    background: url("./images/fighter_two/3_7_atk1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  40% {
+    background: url("./images/fighter_two/3_7_atk1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  41% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  49.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  54.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  55% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  59.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  60% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  63.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  64% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  67.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  68% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  71.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  72% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  76% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  79.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  80% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  82.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  83% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  88% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  91.99% {
+    background: url("./images/fighter_two/3_7_idle1\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  92% {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  99.99 {
+    background: url("./images/fighter_two/3_7_idle1\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  100% {
+    background: url("./images/fighter_two/3_7_idle1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,659 @@
+.fighter-three {
+  margin: auto;
+  z-index: 4;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background: url("./images/fighter-three/f3_magic1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0px;
+  left: -20px;
+  -moz-animation: fighter-three infinite 7s;
+  -webkit-animation: fighter-three infinite 7s;
+  animation: fighter-three infinite 7s;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+}
+
+.fighter-three:hover {
+  cursor: pointer;
+}
+
+@keyframes fighter-three {
+  0% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  3.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  4% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  7.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  11.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  12% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  15.99% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  16% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  19.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  20% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  23.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  24% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  27.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  28% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  31.99% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  32% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  35.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  36% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  49.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  59.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  60% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  63.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  64% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  67.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  68% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  71.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  72% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  76% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  79.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  80% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  83.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  84% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  88% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  91.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  92% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  95.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  96% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@-moz-keyframes fighter-three {
+  0% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  3.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  4% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  7.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  11.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  12% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  15.99% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  16% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  19.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  20% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  23.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  24% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  27.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  28% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  31.99% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  32% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  35.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  36% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  49.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  59.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  60% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  63.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  64% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  67.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  68% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  71.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  72% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  76% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  79.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  80% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  83.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  84% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  88% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  91.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  92% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  95.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  96% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes fighter-three {
+  0% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  3.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  4% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  7.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  8% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  11.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  12% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  15.99% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  16% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  19.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  20% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  23.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  24% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  27.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  28% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  31.99% {
+    background: url("./images/fighter-three/f3_magic2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  32% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  35.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  36% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  49.99% {
+    background: url("./images/fighter-three/f3_magic1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  59.99% {
+    background: url("./images/fighter-three/f3_magic3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  60% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  63.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  64% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  67.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  68% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  71.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  72% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  76% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  79.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  80% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  83.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  84% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  87.99% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  88% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  91.99% {
+    background: url("./images/fighter-three/f3_idle2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  92% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  95.99% {
+    background: url("./images/fighter-three/f3_idle3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  96% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url("./images/fighter-three/f3_idle1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
