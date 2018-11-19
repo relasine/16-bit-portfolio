@@ -1,14 +1,15 @@
 .bard {
-  background-size: 35px 70px;
   image-rendering: pixelated;
   margin: auto;
   z-index: 4;
-  height: 70px;
+  height: 59px;
   width: 35px;
   position: absolute;
-  background-size: 35px 70px;
+  background-size: 35px 59px;
   top: 140px;
   left: 85px;
+  -moz-animation: perform infinite 1.5s;
+  -webkit-animation: perform infinite 1.5s;
   animation: perform infinite 1.5s;
   animation-timing-function: steps(5, end);
 }
@@ -17,39 +18,146 @@
   cursor: pointer;
 }
 
-@keyframes perform {
+@-moz-keyframes perform {
   0% {
     background: url(./images/bard/bard-1.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   24.9% {
     background: url(./images/bard/bard-1.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   25% {
     background: url(./images/bard/bard-2.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   49.9% {
     background: url(./images/bard/bard-2.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   50% {
     background: url(./images/bard/bard-3.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   74.9% {
     background: url(./images/bard/bard-3.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   75% {
     background: url(./images/bard/bard-4.png) no-repeat;
     image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   99.9% {
     background: url(./images/bard/bard-4.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
   }
   100% {
     background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+}
+
+@-webkit-keyframes perform {
+  0% {
+    background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  24.9% {
+    background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  25% {
+    background: url(./images/bard/bard-2.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  49.9% {
+    background: url(./images/bard/bard-2.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  50% {
+    background: url(./images/bard/bard-3.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  74.9% {
+    background: url(./images/bard/bard-3.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  75% {
+    background: url(./images/bard/bard-4.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  99.9% {
+    background: url(./images/bard/bard-4.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  100% {
+    background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+}
+
+@keyframes perform {
+  0% {
+    background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  24.9% {
+    background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  25% {
+    background: url(./images/bard/bard-2.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  49.9% {
+    background: url(./images/bard/bard-2.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  50% {
+    background: url(./images/bard/bard-3.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  74.9% {
+    background: url(./images/bard/bard-3.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  75% {
+    background: url(./images/bard/bard-4.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  99.9% {
+    background: url(./images/bard/bard-4.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
+  }
+  100% {
+    background: url(./images/bard/bard-1.png) no-repeat;
+    image-rendering: pixelated;
+    background-size: 35px 59px;
   }
 }

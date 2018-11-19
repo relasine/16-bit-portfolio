@@ -132,7 +132,7 @@ class Projects extends Component {
             <a href="https://github.com/relasine/nmbus" target="_blank">
               Nmbus Weather
             </a>{" "}
-            is a web-application built for phones the utilizies the Weather
+            is a web-application built for phones that utilizies the Weather
             Underground API to display weather forecasts. Locations are
             searchable by city name or zip code. Powered by React.
           </p>
