@@ -1,6 +1,7 @@
 @font-face {
   font-family: "ChronoType";
-  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+  src: url("./fonts/ChronoType.ttf") format("ttf"),
+    url("fonts/ChronoType.woff2");
 }
 
 .App {
