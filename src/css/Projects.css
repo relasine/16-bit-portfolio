@@ -5,7 +5,8 @@
 }
 
 .projects-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 345px 345px;
   width: 690px;
   height: 430px;
   margin: 3rem auto;
@@ -24,9 +25,11 @@
   width: 345px;
   text-align: center;
   line-height: 300px;
+  grid-column: 2;
 }
 
 .projects {
+  grid-column: 1;
   position: relative;
   width: 345px;
   height: 430px;
