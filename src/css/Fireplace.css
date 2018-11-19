@@ -3,6 +3,7 @@
   height: 40px;
   width: 40px;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
   animation: fireplace infinite steps(4, end) 1s;
   -webkit-animation: fireplace infinite steps(4, end) 1s;
   -moz-animation: fireplace infinite steps(4, end) 1s;
@@ -19,18 +20,21 @@
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   33% {
     background-image: url("images/fireplace/fire2.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   66% {
     background-image: url("images/fireplace/fire3.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background-image: url("images/fireplace/fire1.png");
@@ -38,6 +42,7 @@
 
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }
 
@@ -47,24 +52,28 @@
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   33% {
     background-image: url("images/fireplace/fire2.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   66% {
     background-image: url("images/fireplace/fire3.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background-image: url("images/fireplace/fire1.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }
 
@@ -74,23 +83,27 @@
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   33% {
     background-image: url("images/fireplace/fire2.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   66% {
     background-image: url("images/fireplace/fire3.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background-image: url("images/fireplace/fire1.png");
     background-repeat: no-repeat;
     background-size: 22px 25px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }

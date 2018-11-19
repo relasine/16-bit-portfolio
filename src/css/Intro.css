@@ -36,11 +36,14 @@
   height: 300px;
   z-index: 3;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 .grass {
   position: absolute;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+
   background: url("images/grass.png") no-repeat;
   width: 355px;
   height: 30px;
@@ -48,6 +51,7 @@
   z-index: 2;
   top: 200px;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 .sidewalk {
@@ -58,6 +62,7 @@
   width: 355px;
   height: 70px;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 .guy,
@@ -65,6 +70,8 @@
   background-size: 35px 70px;
   background-repeat: no-repeat;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+
   margin: auto;
   z-index: 4;
   height: 70px;
@@ -114,276 +121,331 @@
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   1.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   2% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   3.99% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   4% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   5.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   6% {
     background: url(./images/char1/right_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   7.99% {
     background: url(./images/char1/right_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   8% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   9.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   10% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   11.99% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   12% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   13.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   14% {
     background: url(./images/char1/right_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   15.99% {
     background: url(./images/char1/right_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   16% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   17.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   18% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   19.99% {
     background: url(./images/char1/right_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   20% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   25% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   44% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   45.99% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   46% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   48.99% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   49% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   51.99% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   52% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   53.99% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   54% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   55.99% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   56% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   57.99% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   58% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   59.99% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   60% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   61.99% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   62% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   63.99% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   64% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   65.99% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   66% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   67.99% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   68% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   69.99% {
     background: url(./images/char1/left_walk1.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   70% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   71.99% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   72% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   73.99% {
     background: url(./images/char1/left_walk2.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   74% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   89% {
     background: url(./images/char1/left_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   90% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   99% {
     background: url(./images/char1/down_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background: url(./images/char1/right_stand.png) no-repeat center;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }
 
@@ -410,136 +472,163 @@
     background: url(./images/char2/down_stand.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   24.99% {
     background: url(./images/char2/down_stand.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   25% {
     background: url(./images/char2/left_stand.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   33.99% {
     background: url(./images/char2/left_stand.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   34% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   34.5% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   35% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   35.5% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   36% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   36.5% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   37% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   37.5% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   38% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   38.5% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   39% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   39.5% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   40% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   40.5% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   41% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   41.5% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   42% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   42.5% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   43% {
     background: url(./images/char2/laugh1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   43.5% {
     background: url(./images/char2/laugh2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   44% {
     background: url(./images/char2/laugh3.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 
   45% {
     background: url(./images/char2/down_stand.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background: url(./images/char2/down_stand.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }

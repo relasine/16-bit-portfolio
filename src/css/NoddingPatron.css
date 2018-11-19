@@ -1,6 +1,7 @@
 .nodding-patron {
   background-size: 35px 70px;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
   margin: auto;
   z-index: 2;
   height: 70px;
@@ -22,45 +23,54 @@
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   24% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   25% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   49% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   50% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   74% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   75% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   99% {
     background: url(./images/chara3_7/nod2.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background: url(./images/chara3_7/nod1.png) no-repeat;
     background-size: 35px 70px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }
