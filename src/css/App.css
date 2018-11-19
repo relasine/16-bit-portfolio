@@ -7,37 +7,3 @@
 .App {
   font-family: "ChronoType";
 }
-
-@media (max-width: 730px) {
-  .intro-row,
-  .social-row {
-    display: block;
-    width: 345px;
-    height: 480px;
-  }
-  .projects-row {
-    grid-template-columns: 345px;
-    width: 345px;
-    height: 480px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .contact-social,
-  .intro-wrapper,
-  .projects {
-    margin: auto;
-  }
-}
-
-.projects-text {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.intro-text,
-.social-text,
-.projects-text {
-  line-height: 50px;
-  height: 50px;
-  width: 345px;
-}

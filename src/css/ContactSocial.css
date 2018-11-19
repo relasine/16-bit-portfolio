@@ -13,7 +13,8 @@
 }
 
 .social-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 345px 345px;
   width: 690px;
   height: 430px;
   margin: 3rem auto;
@@ -64,4 +65,22 @@
 
 .shop-keep-dialogue.true {
   left: 0;
+}
+
+@media (max-width: 730px) {
+  .social-row {
+    display: block;
+    width: 345px;
+    height: 480px;
+  }
+
+  .intro-wrapper {
+    margin: auto;
+  }
+  .social-text {
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    width: 345px;
+  }
 }

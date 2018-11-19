@@ -16,7 +16,8 @@
   text-decoration: none;
 }
 
-.projects-text {
+h4.projects-text {
+  grid-column: 2;
   font-family: "ChronoType";
   font-size: 2rem;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -25,7 +26,6 @@
   width: 345px;
   text-align: center;
   line-height: 300px;
-  grid-column: 2;
 }
 
 .projects {
@@ -66,4 +66,26 @@
 .nodding-patron-dialogue.true,
 .standing-patron-dialogue.true {
   left: 0;
+}
+
+@media (max-width: 730px) {
+  .projects-row {
+    grid-template-columns: 1fr;
+    width: 345px;
+    height: 480px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h4.projects-text {
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .projects {
+    grid-column: 1;
+    grid-row: 2;
+  }
 }

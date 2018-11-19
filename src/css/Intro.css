@@ -632,3 +632,21 @@
     image-rendering: -moz-crisp-edges;
   }
 }
+
+@media (max-width: 730px) {
+  .intro-row {
+    display: block;
+    width: 345px;
+    height: 480px;
+  }
+
+  .intro-wrapper {
+    margin: auto;
+  }
+  .intro-text {
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    width: 345px;
+  }
+}
