@@ -11,7 +11,6 @@
   top: 145px;
   left: 165px;
   animation: nodding infinite 3s;
-  animation-timing-function: steps(4, end);
 }
 
 .nodding-patron:hover {

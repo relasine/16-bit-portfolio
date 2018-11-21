@@ -83,7 +83,7 @@
   top: 205px;
   left: 15px;
   background: url(./images/char1/right_stand.png);
-  animation: char1-path infinite 16s steps(32), move linear infinite 16s;
+  animation: char1-path infinite 16s, move linear infinite 16s;
 }
 
 .guy-two {

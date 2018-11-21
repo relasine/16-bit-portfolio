@@ -12,9 +12,9 @@
   background-size: 100px 100px;
   background-repeat: no-repeat;
   background-position: center;
-  animation: clock infinite steps(9, end) 4s;
-  -moz-animation: clock infinite steps(9, end) 4s;
-  -webkit-animation: clock infinite steps(9, end) 4s;
+  animation: clock infinite 4s;
+  -moz-animation: clock infinite 4s;
+  -webkit-animation: clock infinite 4s;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
 }

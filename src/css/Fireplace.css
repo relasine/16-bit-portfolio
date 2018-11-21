@@ -4,9 +4,9 @@
   width: 40px;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
-  animation: fireplace infinite steps(4, end) 1s;
-  -webkit-animation: fireplace infinite steps(4, end) 1s;
-  -moz-animation: fireplace infinite steps(4, end) 1s;
+  animation: fireplace infinite 1s;
+  -webkit-animation: fireplace infinite 1s;
+  -moz-animation: fireplace infinite 1s;
   z-index: 3;
   top: 132px;
   left: 68px;

@@ -131,7 +131,7 @@
   .onboarding-row {
     display: block;
     width: 345px;
-    height: 480px;
+    height: 520px;
   }
 
   .intro-wrapper {
@@ -140,7 +140,7 @@
   .onboarding-text {
     margin-bottom: 1rem;
     padding: 0;
-    height: 70px;
+    height: 100px;
     width: 345px;
     z-index: 10;
   }
