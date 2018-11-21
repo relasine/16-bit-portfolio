@@ -46,7 +46,7 @@ class About extends Component {
     return (
       <section className="about">
         <div className="about-row">
-          <h4 className="about-text">About</h4>
+          <h4 className="about-text">Page Info</h4>
           <article className="about-scene-column">
             <div className="about-scene">
               <FighterOne dialogue={this.fighterOne} />

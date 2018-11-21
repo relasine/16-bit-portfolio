@@ -137,7 +137,7 @@ class Projects extends Component {
             searchable by city name or zip code. Powered by React.
           </p>
         </section>
-        <h4 className="projects-text">Projects</h4>
+        <h4 className="projects-text">Projects/Applications</h4>
       </section>
     );
   }

@@ -1,0 +1,36 @@
+.rdm {
+  margin: auto;
+  z-index: 4;
+  height: 68px;
+  width: 34px;
+  position: absolute;
+  background-size: 34px 68px;
+  background: url("./images/rdm/rdm-side.png");
+  top: 90px;
+  left: 90px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+}
+
+.rdm.true {
+  animation: rdm-turn 3s linear;
+}
+
+.rdm:hover {
+  cursor: pointer;
+}
+
+@keyframes rdm-turn {
+  0% {
+    background: url("./images/rdm/rdm-front.png");
+  }
+  29.9% {
+    background: url("./images/rdm/rdm-front.png");
+  }
+  30% {
+    background: url("./images/rdm/rdm-surprised.png");
+  }
+  100% {
+    background: url("./images/rdm/rdm-surprised.png");
+  }
+}

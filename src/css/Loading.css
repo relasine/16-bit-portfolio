@@ -1,0 +1,76 @@
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-frame {
+  height: 105px;
+  width: 105px;
+  background: url(./images/clock/clock0.png);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: clock infinite steps(9, end) 4s;
+  -moz-animation: clock infinite steps(9, end) 4s;
+  -webkit-animation: clock infinite steps(9, end) 4s;
+  image-rendering: pixelated;
+}
+
+@keyframes clock {
+  0% {
+    background: url(./images/clock/clock8.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  12.5% {
+    background: url(./images/clock/clock1.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  25% {
+    background: url(./images/clock/clock2.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  37.5% {
+    background: url(./images/clock/clock3.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  50% {
+    background: url(./images/clock/clock4.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  62.5% {
+    background: url(./images/clock/clock5.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  75% {
+    background: url(./images/clock/clock6.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  87.5% {
+    background: url(./images/clock/clock7.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  100% {
+    background: url(./images/clock/clock8.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

@@ -40,7 +40,9 @@ class Intro extends Component {
             games from the early 90's.
           </p>
           <p className={`char2-dialogue ${this.state.char2}`}>
-            Also, handsome af.
+            He is skilled with HTML/CSS, JavaScript, React, React Native, Redux,
+            Router, Enzyme/Jest, Responsive UI with Grid and Flexbox, Node.js,
+            and Express.
           </p>
         </section>
       </section>
