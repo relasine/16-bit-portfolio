@@ -7,10 +7,14 @@
 
 .onboarding-page {
   height: 100vh;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   animation: fadein 0.5s linear;
+}
+
+.onboarding-page h1 {
+  text-align: center;
 }
 
 .onboarding-text {

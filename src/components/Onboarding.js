@@ -22,6 +22,7 @@ class Onboarding extends Component {
   render() {
     return (
       <main className="onboarding-page">
+        <h1>Kevin Simpson - Front End Developer</h1>
         <section className="onboarding-row">
           <h3 className="onboarding-text">
             To learn more, click on the characters
