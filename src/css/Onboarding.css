@@ -138,7 +138,7 @@
     margin: auto;
   }
   .onboarding-text {
-    margin: 0;
+    margin-bottom: 1rem;
     padding: 0;
     height: 70px;
     width: 345px;
