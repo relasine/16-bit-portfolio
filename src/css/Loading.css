@@ -16,6 +16,7 @@
   -moz-animation: clock infinite steps(9, end) 4s;
   -webkit-animation: clock infinite steps(9, end) 4s;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 @keyframes clock {
@@ -24,53 +25,71 @@
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   12.5% {
     background: url(./images/clock/clock1.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   25% {
     background: url(./images/clock/clock2.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   37.5% {
     background: url(./images/clock/clock3.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   50% {
     background: url(./images/clock/clock4.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   62.5% {
     background: url(./images/clock/clock5.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   75% {
     background: url(./images/clock/clock6.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   87.5% {
     background: url(./images/clock/clock7.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
   100% {
     background: url(./images/clock/clock8.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
   }
 }
