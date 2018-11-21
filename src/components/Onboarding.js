@@ -25,7 +25,8 @@ class Onboarding extends Component {
         <h1>Kevin Simpson - Front End Developer</h1>
         <section className="onboarding-row">
           <h3 className="onboarding-text">
-            To learn more, click on the characters
+            This is an interactive portfolio. Click on characters and items to
+            learn more.
           </h3>
           <section className="onboarding-scene-column">
             <article className="onboarding-scene">

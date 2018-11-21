@@ -8,6 +8,10 @@
   font-family: "ChronoType";
 }
 
+.preload {
+  display: none;
+}
+
 .onloading {
   text-align: center;
   font-size: 1.5rem;

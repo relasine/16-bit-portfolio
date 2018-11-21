@@ -7,6 +7,7 @@ import Intro from "./Intro";
 import Projects from "./Projects";
 import ContactSocial from "./ContactSocial";
 import About from "./About";
+import Preload from "./Preload";
 import "../css/App.css";
 
 class App extends Component {
@@ -54,6 +55,7 @@ class App extends Component {
             <About />
           </main>
         )}
+        <Preload />
       </div>
     );
   }
