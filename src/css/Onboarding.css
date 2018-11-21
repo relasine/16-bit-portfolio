@@ -65,19 +65,19 @@
   0% {
     background: url("./images/deck1.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
   50% {
     background: url("./images/deck2.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
   100% {
     background: url("./images/deck1.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
 }
@@ -86,19 +86,19 @@
   0% {
     background: url("./images/deck1.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
   50% {
     background: url("./images/deck2.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
   100% {
     background: url("./images/deck1.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
 }
@@ -107,19 +107,41 @@
   0% {
     background: url("./images/deck1.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
   50% {
     background: url("./images/deck2.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
   }
   100% {
     background: url("./images/deck1.png");
     background-repeat: no-repeat;
-    image-resolution: pixelate;
+    image-resolution: pixelated;
     background-size: 345px 300px;
+  }
+}
+
+@media (max-width: 730px) {
+  .onboarding-row {
+    display: block;
+    width: 345px;
+    height: 480px;
+  }
+
+  .intro-wrapper {
+    margin: auto;
+  }
+  .onboarding-text {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    width: 345px;
+    z-index: 10;
+  }
+  .onboarding-scene-column {
+    height: 350px;
   }
 }
