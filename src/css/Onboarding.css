@@ -1,0 +1,157 @@
+.onboarding-row {
+  display: flex;
+  width: 690px;
+  height: 430px;
+  margin: 3rem auto;
+}
+
+.onboarding-page {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 0.5s linear;
+}
+
+.onboarding-page h1 {
+  text-align: center;
+}
+
+.onboarding-text {
+  box-sizing: border-box;
+
+  font-size: 2rem;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 6rem 1rem 0;
+  height: 300px;
+  width: 345px;
+  text-align: center;
+}
+
+.onboarding-scene-column {
+  position: relative;
+  overflow: hidden;
+}
+
+.onboarding-scene {
+  position: relative;
+  width: 345px;
+  height: 300px;
+  animation: water 3s steps(3, end) infinite;
+  -moz-animation: water 3s steps(3, end) infinite;
+  -webkit-animation: water 3s steps(3, end) infinite;
+}
+
+.onboarding-dialogue {
+  position: absolute;
+  left: -400px;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.onboarding-dialogue.true {
+  left: 0;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes water {
+  0% {
+    background: url("./images/deck1.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+  50% {
+    background: url("./images/deck2.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+  100% {
+    background: url("./images/deck1.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+}
+
+@-webkit-keyframes water {
+  0% {
+    background: url("./images/deck1.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+  50% {
+    background: url("./images/deck2.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+  100% {
+    background: url("./images/deck1.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+}
+
+@-moz-keyframes water {
+  0% {
+    background: url("./images/deck1.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+  50% {
+    background: url("./images/deck2.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+  100% {
+    background: url("./images/deck1.png");
+    background-repeat: no-repeat;
+    image-resolution: pixelated;
+    background-size: 345px 300px;
+  }
+}
+
+@media (max-width: 730px) {
+  .onboarding-row {
+    display: block;
+    width: 345px;
+    height: 520px;
+  }
+
+  .intro-wrapper {
+    margin: auto;
+  }
+  .onboarding-text {
+    margin-bottom: 1rem;
+    padding: 0;
+    height: 100px;
+    width: 345px;
+    z-index: 10;
+  }
+  .onboarding-scene-column {
+    height: 350px;
+  }
+}
+
+.other-site {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  font-size: 1.3rem;
+}

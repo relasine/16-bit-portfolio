@@ -1,0 +1,174 @@
+.bar-patron-two {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  margin: auto;
+  z-index: 4;
+  height: 70px;
+  width: 35px;
+  position: absolute;
+  background-size: 35px 70px;
+  top: 225px;
+  right: 70px;
+  background: url(./images/barpatrontwo/down_stand.png) no-repeat;
+  animation: shake-head 1.2s infinite linear;
+  -moz-animation: shake-head 1.2s infinite linear;
+  -webkit-animation: shake-head 1.2s infinite linear;
+  background-size: 35px 70px;
+}
+
+.bar-patron-two:hover {
+  cursor: pointer;
+}
+
+@keyframes shake-head {
+  0% {
+    background: url(./images/barpatrontwo/shake1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background: url(./images/barpatrontwo/shake1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  25.01% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  50.01% {
+    background: url(./images/barpatrontwo/shake3.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background: url(./images/barpatrontwo/shake3.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  75.01% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+}
+
+@-webkit-keyframes shake-head {
+  0% {
+    background: url(./images/barpatrontwo/shake1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background: url(./images/barpatrontwo/shake1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  25.01% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  50.01% {
+    background: url(./images/barpatrontwo/shake3.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background: url(./images/barpatrontwo/shake3.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  75.01% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+}
+
+@-moz-keyframes shake-head {
+  0% {
+    background: url(./images/barpatrontwo/shake1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background: url(./images/barpatrontwo/shake1.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  25.01% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  50.01% {
+    background: url(./images/barpatrontwo/shake3.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background: url(./images/barpatrontwo/shake3.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  75.01% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url(./images/barpatrontwo/shake2.png) no-repeat;
+    background-size: 35px 70px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+  }
+}

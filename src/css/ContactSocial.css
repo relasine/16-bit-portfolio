@@ -1,6 +1,7 @@
 @font-face {
   font-family: "ChronoType";
-  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+  src: url("./fonts/ChronoType.ttf") format("ttf"),
+    url("fonts/ChronoType.woff2");
 }
 
 .contact-social {
@@ -12,7 +13,8 @@
 }
 
 .social-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 345px 345px;
   width: 690px;
   height: 430px;
   margin: 3rem auto;
@@ -34,6 +36,7 @@
   width: 345px;
   height: 300px;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 .window-button {
@@ -62,4 +65,30 @@
 
 .shop-keep-dialogue.true {
   left: 0;
+}
+
+.resume-link {
+  position: absolute;
+  right: 5px;
+  top: 49px;
+  height: 45px;
+  width: 71px;
+}
+
+@media (max-width: 730px) {
+  .social-row {
+    display: block;
+    width: 345px;
+    height: 480px;
+  }
+
+  .intro-wrapper {
+    margin: auto;
+  }
+  .social-text {
+    margin: 0;
+    line-height: 50px;
+    height: 50px;
+    width: 345px;
+  }
 }

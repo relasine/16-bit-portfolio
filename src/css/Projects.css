@@ -1,10 +1,12 @@
 @font-face {
   font-family: "ChronoType";
-  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+  src: url("./fonts/ChronoType.ttf") format("ttf"),
+    url("fonts/ChronoType.woff2");
 }
 
 .projects-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 345px 345px;
   width: 690px;
   height: 430px;
   margin: 3rem auto;
@@ -14,7 +16,8 @@
   text-decoration: none;
 }
 
-.projects-text {
+h4.projects-text {
+  grid-column: 2;
   font-family: "ChronoType";
   font-size: 2rem;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -26,6 +29,7 @@
 }
 
 .projects {
+  grid-column: 1;
   position: relative;
   width: 345px;
   height: 430px;
@@ -37,13 +41,15 @@
   width: 345px;
   height: 300px;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 .bard-dialogue,
 .barkeep-dialogue,
 .bar-patron-dialogue,
 .nodding-patron-dialogue,
-.standing-patron-dialogue {
+.standing-patron-dialogue,
+.bar-patron-two-dialogue {
   position: absolute;
   top: 310px;
   font-family: "ChronoType";
@@ -59,6 +65,29 @@
 .barkeep-dialogue.true,
 .bar-patron-dialogue.true,
 .nodding-patron-dialogue.true,
-.standing-patron-dialogue.true {
+.standing-patron-dialogue.true,
+.bar-patron-two-dialogue.true {
   left: 0;
+}
+
+@media (max-width: 730px) {
+  .projects-row {
+    grid-template-columns: 1fr;
+    width: 345px;
+    height: 480px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h4.projects-text {
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .projects {
+    grid-column: 1;
+    grid-row: 2;
+  }
 }

@@ -1,5 +1,6 @@
 .barkeep {
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
   margin: auto;
   z-index: 4;
   height: 70px;

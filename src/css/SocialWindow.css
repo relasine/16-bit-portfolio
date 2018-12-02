@@ -1,6 +1,7 @@
 @font-face {
   font-family: "ChronoType";
-  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+  src: url("./fonts/ChronoType.ttf") format("ttf"),
+    url("fonts/ChronoType.woff2");
 }
 
 .social-window {
@@ -13,6 +14,7 @@
   left: 20px;
   background: url("./images/social-board.png") no-repeat;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
   background-size: 300px 250px;
   height: 0px;
   width: 300px;
@@ -22,7 +24,7 @@
 }
 
 .close-social {
-  margin: 1rem 1.3rem 1.7rem;
+  margin: 1rem 1.3rem 1rem;
   font-size: 2rem;
   width: 20px;
 }

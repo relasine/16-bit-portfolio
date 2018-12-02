@@ -1,8 +1,31 @@
 @font-face {
   font-family: "ChronoType";
-  src: local("ChronoType"), url(./fonts/ChronoType.ttf) format("ttf");
+  src: url("./fonts/ChronoType.ttf") format("ttf"),
+    url("fonts/ChronoType.woff2");
 }
 
 .App {
   font-family: "ChronoType";
+}
+
+.preload {
+  display: none;
+}
+
+.onloading {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main-screen {
+  animation: fadein 0.5s linear;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
