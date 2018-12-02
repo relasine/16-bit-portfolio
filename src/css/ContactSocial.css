@@ -67,6 +67,14 @@
   left: 0;
 }
 
+.resume-link {
+  position: absolute;
+  right: 5px;
+  top: 49px;
+  height: 45px;
+  width: 71px;
+}
+
 @media (max-width: 730px) {
   .social-row {
     display: block;

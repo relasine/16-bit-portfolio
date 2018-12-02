@@ -57,14 +57,27 @@ class About extends Component {
             </div>
             <p className={`${this.state.fighterOne} fighter-one-dialogue`}>
               Art assets are licensed by{" "}
-              <a href="http://finalbossblues.com/" target="_black">
+              <a
+                href="http://finalbossblues.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Jason Perry
               </a>
               , aka 'Final Boss Blues'
             </p>
             <p className={`${this.state.fighterTwo} fighter-two-dialogue`}>
-              Thank you for coming to my lovely tea party.
+              You can find my traditional portfolio page{" "}
+              <a
+                className="page-info-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://relasine.github.io/portfolio"
+              >
+                here.
+              </a>
             </p>
+
             <p className={`${this.state.fighterThree} fighter-three-dialogue`}>
               This page was built in React. All animations created using CSS.
             </p>

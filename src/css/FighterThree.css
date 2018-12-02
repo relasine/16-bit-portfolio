@@ -1,14 +1,14 @@
 .fighter-three {
   margin: auto;
   z-index: 4;
-  height: 100px;
-  width: 100px;
+  height: 115px;
+  width: 115px;
   position: absolute;
   background: url("./images/fighter-three/f3_magic1.png");
   background-repeat: no-repeat;
   background-size: contain;
-  top: 0px;
-  left: -20px;
+  top: -13px;
+  left: -30px;
   -moz-animation: fighter-three infinite 7s;
   -webkit-animation: fighter-three infinite 7s;
   animation: fighter-three infinite 7s;

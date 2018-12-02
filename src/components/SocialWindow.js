@@ -12,25 +12,38 @@ const SocialWindow = props => {
           <a
             href="https://www.linkedin.com/in/kevinjohnsimpson/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="./linkedin-icon.png" alt="linkedin" />
             linkedin
           </a>
         </div>
         <div className="social-pair-container">
-          <a href="https://twitter.com/relasine" target="_blank">
+          <a
+            href="https://twitter.com/relasine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="./twitter-icon.png" alt="twitter" />
             twitter
           </a>
         </div>
         <div className="social-pair-container">
-          <a href="https://github.com/relasine" target="_blank">
+          <a
+            href="https://github.com/relasine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="./github-icon.png" alt="github" />
             github
           </a>
         </div>
         <div className="social-pair-container">
-          <a href="https://www.instagram.com/kevinjohnsimpson/" target="_blank">
+          <a
+            href="https://www.instagram.com/kevinjohnsimpson/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="./instagram-icon.png" alt="instagram" />
             instagram
           </a>

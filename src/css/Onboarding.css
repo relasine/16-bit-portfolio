@@ -148,3 +148,10 @@
     height: 350px;
   }
 }
+
+.other-site {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  font-size: 1.3rem;
+}

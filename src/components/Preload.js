@@ -13,6 +13,7 @@ import tavern from "../css/images/tavern.png";
 const Preload = () => {
   return (
     <div className="preload">
+      <h1>text</h1>
       <img src={darkworld1} alt="darkworld1" />
       <img src={darkworld2} alt="darkworld2" />
       <img src={deck1} alt="deck1" />

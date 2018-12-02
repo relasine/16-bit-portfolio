@@ -40,6 +40,9 @@ class Onboarding extends Component {
             </p>
           </section>
         </section>
+        <a className="other-site" href="https://relasine.github.io/portfolio/">
+          <p>If you prefer a traditional portfolio site, please click here.</p>
+        </a>
       </main>
     );
   }

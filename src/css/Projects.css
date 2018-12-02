@@ -48,7 +48,8 @@ h4.projects-text {
 .barkeep-dialogue,
 .bar-patron-dialogue,
 .nodding-patron-dialogue,
-.standing-patron-dialogue {
+.standing-patron-dialogue,
+.bar-patron-two-dialogue {
   position: absolute;
   top: 310px;
   font-family: "ChronoType";
@@ -64,7 +65,8 @@ h4.projects-text {
 .barkeep-dialogue.true,
 .bar-patron-dialogue.true,
 .nodding-patron-dialogue.true,
-.standing-patron-dialogue.true {
+.standing-patron-dialogue.true,
+.bar-patron-two-dialogue.true {
   left: 0;
 }
 

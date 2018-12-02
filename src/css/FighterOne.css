@@ -1,13 +1,13 @@
 .fighter-one {
   margin: auto;
   z-index: 6;
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
   position: absolute;
   background: url("./images/fighter-one/fighter_one_idle1.png");
   background-repeat: no-repeat;
   background-size: contain;
-  top: 175px;
+  top: 150px;
   left: 135px;
   -moz-animation: fighter-one infinite 5s;
   -webkit-animation: fighter-one infinite 5s;
