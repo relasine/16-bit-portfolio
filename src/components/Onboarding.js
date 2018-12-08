@@ -22,7 +22,7 @@ class Onboarding extends Component {
   render() {
     return (
       <main className="onboarding-page">
-        <h1>Kevin Simpson - Front End Developer</h1>
+        <h1>Kevin Simpson - Full Stack Developer</h1>
         <section className="onboarding-row">
           <h3 className="onboarding-text">
             This is an interactive portfolio. Click on characters and items to

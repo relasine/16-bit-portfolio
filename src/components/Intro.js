@@ -35,14 +35,14 @@ class Intro extends Component {
           <div className="guy" onClick={this.char1} />
           <div className="guy-two" onClick={this.char2} />
           <p className={`char1-dialogue ${this.state.char1}`}>
-            Kevin Simpson is a front-end developer with a love for React, CSS
-            transitions and animations, design, and archaic 16-bit role-playing
+            Kevin Simpson is a full-stack developer with a love for React, CSS
+            transitions and animations, Node.js, and archaic 16-bit role-playing
             games from the early 90's.
           </p>
           <p className={`char2-dialogue ${this.state.char2}`}>
             He is skilled with HTML/CSS, JavaScript, React, React Native, Redux,
             Router, Enzyme/Jest, Responsive UI with Grid and Flexbox, Node.js,
-            and Express.
+            Express, and PostgreSQL.
           </p>
         </section>
       </section>
